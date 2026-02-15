@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English-janal</title>
+    <!-- logo title -->
+     <link rel="stylesheet" href="./assets/logo.png">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--poppins font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- hind shilgiri font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- daisiui + tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- link css -->
+     <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+
+<body>
+   <header>
+     <div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="-1"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+       <ul class="menu  px-1 gap-4">
+      <li class="">
+        <button class=""><i class="fa-solid fa-question"></i>FAQ</button>
+      </li>
+      <li class="">
+        <button class=""><i class="fa-solid fa-book-open"></i>Learn</button>
+      </li>
+      <li class="">
+        <button class=""><i class="fa-solid fa-arrow-right-from-bracket"></i>log out</button>
+      </li>
+    </ul>
+      </ul>
+    </div>
+    <a href="" class="flex items-center space-x-1">
+        <span class="font-bold ">English</span>
+        <img src="./assets/logo.png" alt="" srcset="">
+        <span class="font-bangla font-semibold">জানালা</span>
+    </a>
+  </div>
+  <div class="navbar-end hidden lg:flex">
+    <ul class="menu menu-horizontal px-1 gap-4">
+      <li class="">
+        <button class="btn btn-outline btn-primary"><i class="fa-solid fa-question"></i>FAQ</button>
+      </li>
+      <li class="">
+        <button class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>Learn</button>
+      </li>
+      <li class="">
+        <button class="btn btn-outline btn-primary"><i class="fa-solid fa-arrow-right-from-bracket"></i>log out</button>
+      </li>
+    </ul>
+  </div>
+</div>
+   </header>
+
+
+   <!-- section -->
+    <section class="flex flex-col-reverse md:flex-row items-center w-11/12 mx-auto">
+        <div class="content flex-1  ">
+            <h1 class="text-4xl text-center md:text-left font-bold mb-5"><span class="text-sky-400 ">English</span> is Easy!!</h1>
+            <p class="font-bangla">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+            <div class="flex flex-col mt-5 gap-4 w-64">
+                <input type="text" placeholder="Enter your name" class="">
+            <input type="password" name="" id="" >
+            <button class="btn btn-outline btn-primary w-32">Get Started</button>
+            </div>
+        </div>
+        <div class="image flex-1 ">
+            <img src="./assets/hero-student.png" alt="" srcset="">
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <h1 class="text-4xl text-center font-bold mb-5"><span class="text-sky-400 ">Let's</span> Learn Vocabulary!!</h1>
+        <div id="lesson-container" class="flex justify-center gap-5 flex-wrap">
+
+        </div>
+    </section>
+
+    <section id="word-container" class="bg-gray-100 w-11/12 mx-auto p-10 my-10 rounded-sm grid grid-cols-3 gap-4">
+
+       <div class="col-span-full py-4  text-center font-bangla">
+        <p class="text-gray-400 py-2">আপনি এখনো কোন Lesson Select করেন নি</p>
+        <h2 class="text-4xl font-bold">একটি Lesson Select করুন।</h2>
+       </div>
+        
+    </section>
+    <script src="./script/index.js"></script>
+</body>
+
+</html>
