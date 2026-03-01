@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #post-container{
+            max-width: 1320px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-gap: 20px;
+
+        }
+        .post-card{
+            border: 1px solid #ddd;
+            padding: 20px;
+            box-shadow: 1px 1px 1px 1px gray;
+            border-radius: 30px;
+        }
+        .post-card p{
+            border: 1px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello Javascript</h1>
+    <h3>Welcome back</h3>
+    <button onclick="reload()">Button</button>
+    <ul id="post-container">
+        
+    </ul>
+</body>
+<script src="js.js"></script>
+</html>
