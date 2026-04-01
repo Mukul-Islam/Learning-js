@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": "$500/monthly",
+    "duration": "Monthly",
+    "features": [
+      "Access to basic gym equipment (treadmill, dumbbells)",
+      "1 hour daily workout limit",
+      "No personal trainer support",
+      "Standard locker facility",
+      "Access during regular hours (8 AM - 8 PM)"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": "$1000/monthly",
+    "duration": "Monthly",
+    "features": [
+      "Access to all gym equipment",
+      "Unlimited workout time",
+      "Basic trainer support (shared trainer)",
+      "Locker + Shower facility",
+      "Free group workout classes (3 days/week)",
+      "Cardio + Strength + Functional training zones",
+      "Mobile app access for workout tracking",
+      "Diet tips and basic nutrition guidance"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": "$2000/monthly",
+    "duration": "Monthly",
+    "features": [
+      "All Standard Plan features included",
+      "Dedicated personal trainer (5 sessions/week)",
+      "Fully customized diet & workout plan",
+      "Weekly progress tracking & consultation",
+      "Free protein shake (3 times per week)",
+      "Priority access to all equipment",
+      "Body composition analysis (monthly)",
+      "24/7 gym access",
+      "Access to VIP lounge & recovery zone",
+      "Sauna & steam bath access",
+      "Injury prevention & rehab support"
+    ]
+  }
+]
