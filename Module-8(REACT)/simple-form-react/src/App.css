@@ -1,0 +1,7 @@
+@import "tailwindcss";
+input {
+  border: 1px solid gray;
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+}
